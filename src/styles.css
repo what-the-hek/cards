@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    padding: 10px;
+    margin: 10px;
+}
