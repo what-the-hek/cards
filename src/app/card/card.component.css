@@ -1,0 +1,19 @@
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    padding: 10px;
+    margin: 10px;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
